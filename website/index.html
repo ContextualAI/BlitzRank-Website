@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlitzRank: Principled Zero-shot Ranking Agents with Tournament Graphs</title>
+  <meta name="description" content="BlitzRank introduces a tournament graph framework for query-efficient LLM-based document reranking, achieving Pareto dominance with 25-40% fewer tokens.">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <script src="animation.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="title">BLITZRANK</h1>
+      <p class="subtitle">Principled Zero-shot Ranking Agents with Tournament Graphs</p>
+      <p class="venue">Preprint 2026</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Authors -->
+      <section class="authors">
+        <div class="author-list">
+          <div class="author">
+            <span class="author-name"><a href="#">Sheshansh Agrawal</a>*</span>
+            <div class="affiliation">Contextual AI</div>
+          </div>
+          <div class="author">
+            <span class="author-name"><a href="#">Thien Hang Nguyen</a>*</span>
+            <div class="affiliation">Contextual AI</div>
+          </div>
+          <div class="author">
+            <span class="author-name"><a href="#">Douwe Kiela</a></span>
+            <div class="affiliation">Contextual AI</div>
+          </div>
+        </div>
+        <p class="equal-contrib">* Equal contribution</p>
+      </section>
+
+      <!-- Links -->
+      <section class="links">
+        <span class="link-btn disabled">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          Paper <small>(coming soon)</small>
+        </span>
+        <a href="https://github.com/ContextualAI/BlitzRank" class="link-btn" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+          Code
+        </a>
+        <span class="link-btn disabled">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+          </svg>
+          Blog <small>(coming soon)</small>
+        </span>
+      </section>
+
+      <!-- Tagline -->
+      <section id="tagline">
+        <p class="tagline-text">
+          <span class="lightning">⚡</span> BlitzRank uses tournament graphs to extract maximal information from each LLM call&mdash;a principled framework achieving <strong>Pareto optimality</strong> across 14 benchmarks and 5 LLMs with <strong>25&ndash;40% fewer queries</strong>.
+        </p>
+      </section>
+
+      <!-- Pareto Plots -->
+      <section id="pareto-plots">
+        <h2 class="section-title">Accurate & Efficient</h2>
+        <figure class="figure-academic">
+          <div class="pareto-tabs" role="tablist">
+            <button class="pareto-tab active" role="tab" data-model="gpt-4.1" aria-selected="true">GPT-4.1</button>
+            <button class="pareto-tab" role="tab" data-model="gemini-3-flash" aria-selected="false">Gemini-3-Flash</button>
+            <button class="pareto-tab" role="tab" data-model="glm" aria-selected="false">GLM-4.7</button>
+            <button class="pareto-tab" role="tab" data-model="deepseek" aria-selected="false">DeepSeek-V3.2</button>
+            <button class="pareto-tab" role="tab" data-model="qwen" aria-selected="false">Qwen3-235B-A22B-Instruct</button>
+          </div>
+          <div class="pareto-container">
+            <div id="pareto-chart"></div>
+          </div>
+          <figcaption>
+            <strong>Figure 1.</strong>
+            Pareto frontiers across LLM oracles. Points in the upper-left achieve better accuracy with fewer tokens.
+            <em>Hover over points for details.</em>
+          </figcaption>
+        </figure>
+      </section>
+
+      <!-- Algorithm Visualization -->
+      <section id="visualization">
+        <h2 class="section-title">Algorithm Visualization</h2>
+        <figure class="figure-academic">
+          <div class="figure-panels">
+            <div class="figure-panel">
+              <span class="figure-label">BlitzRank</span>
+              <div class="animation-wrapper">
+                <div id="blitzrank-animation"></div>
+              </div>
+            </div>
+            <div class="figure-panel">
+              <span class="figure-label">Sliding Window</span>
+              <div class="animation-wrapper">
+                <div id="sliding-window-animation"></div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Animation Controls -->
+          <div class="animation-controls">
+            <button id="step-back-btn" aria-label="Step backward">⏮</button>
+            <button id="play-pause-btn" aria-label="Play">▶</button>
+            <button id="step-forward-btn" aria-label="Step forward">⏭</button>
+            <input type="range" id="progress-slider" min="0" max="100" value="0" aria-label="Animation progress">
+            <select id="speed-select" aria-label="Playback speed">
+              <option value="1200" selected>1×</option>
+              <option value="600">2×</option>
+              <option value="300">4×</option>
+            </select>
+            <button id="reset-btn" aria-label="Reset">⟲</button>
+          </div>
+          
+          <figcaption>
+            <strong>Figure 2.</strong> Comparison on the <a href="https://books.google.com/books?id=RosxmAYFFosC" target="_blank">25 horses puzzle</a>: 
+            <em>find the 3 fastest horses from 25, racing 5 at a time.</em>
+            BlitzRank converges in <strong>7 rounds</strong> vs Sliding Window's <strong>11 rounds</strong>.
+          </figcaption>
+        </figure>
+      </section>
+
+      <!-- Abstract -->
+      <section id="abstract">
+        <h2 class="section-title">Abstract</h2>
+        <div class="abstract">
+          <p>
+            Large language models have emerged as powerful zero-shot rerankers for retrieval-augmented generation,
+            offering strong generalization without task-specific training. However, existing LLM reranking methods
+            either rely on heuristics that fail to fully exploit the information revealed by each ranking decision
+            or are inefficient when they do. We introduce a tournament graph framework that provides a principled
+            foundation for k-wise reranking. Our key observation is that each k-document comparison reveals a
+            complete tournament of <em>k choose 2</em> pairwise preferences. These tournaments are aggregated into
+            a global preference graph, whose transitive closure yields many additional orderings without further
+            model invocations. We formalize when a candidate's rank is certifiably determined and design a query
+            schedule that greedily maximizes information gain towards identifying the top-m items. Our framework
+            also gracefully handles non-transitive preferences&mdash;cycles induced by LLM judgments&mdash;by
+            collapsing them into equivalence classes that yield principled tiered rankings. Empirically, across
+            14 benchmarks and 5 LLMs, our approach achieves Pareto dominance over existing methods: matching or
+            exceeding accuracy while requiring 25&ndash;40% fewer tokens than comparable approaches, and
+            7&times; fewer than pairwise methods at near-identical quality.
+          </p>
+        </div>
+      </section>
+
+      <!-- Quick Start -->
+      <section id="quickstart">
+        <h2 class="section-title">Quick Start</h2>
+        <div class="code-blocks">
+          <div class="code-snippet code-bash">
+            <span class="code-lang">bash</span>
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+            <pre><code>uv pip install blitzrank</code></pre>
+          </div>
+          <div class="code-snippet code-python">
+            <span class="code-lang">python</span>
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+            <pre><code><span class="code-keyword">from</span> blitzrank <span class="code-keyword">import</span> BlitzRank
+
+ranker = BlitzRank(model=<span class="code-string">"openai/gpt-4.1"</span>)
+
+query = <span class="code-string">"capital of France"</span>
+docs = [<span class="code-string">"Berlin is in Germany"</span>, <span class="code-string">"Paris is in France"</span>, <span class="code-string">"Tokyo is in Japan"</span>]
+
+indices = ranker(query, docs, topk=<span class="code-number">2</span>)  <span class="code-comment"># -> [1, 0]</span>
+top_docs = [docs[i] <span class="code-keyword">for</span> i <span class="code-keyword">in</span> indices]</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- Citation -->
+      <section id="citation">
+        <h2 class="section-title">Citation</h2>
+        <div class="citation-block">
+          <button class="copy-btn" onclick="copyBibtex()">Copy</button>
+          <pre id="bibtex">@article{blitzrank2026,
+  title={BlitzRank: Principled Zero-shot Ranking Agents with Tournament Graphs},
+  author={Agrawal, Sheshansh and Nguyen, Thien Hang and Kiela, Douwe},
+  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  year={2026}
+}</pre>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  
+  <script>
+    function copyBibtex() {
+      const bibtex = document.getElementById('bibtex').textContent;
+      navigator.clipboard.writeText(bibtex).then(() => {
+        const btn = document.querySelector('#citation .copy-btn');
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = 'Copy';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    }
+
+    function copyCode(btn) {
+      const code = btn.parentElement.querySelector('code').textContent;
+      navigator.clipboard.writeText(code).then(() => {
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = 'Copy';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    }
+
+    // Pareto Plot initialization
+    (async function initParetoPlots() {
+      let plotData = null;
+      let currentModel = 'gpt-4.1';
+
+      try {
+        const response = await fetch('plots/pareto_plotly.json');
+        plotData = await response.json();
+      } catch (e) {
+        console.error('Failed to load pareto plot data:', e);
+        return;
+      }
+
+      function renderPlot(model) {
+        const chartEl = document.getElementById('pareto-chart');
+        if (!chartEl || !plotData.models[model]) return;
+
+        const traces = plotData.models[model].data;
+        const layout = {
+          ...plotData.layout,
+          autosize: true,
+        };
+        const config = {
+          responsive: true,
+          displayModeBar: true,
+          modeBarButtonsToRemove: ['lasso2d', 'select2d'],
+          displaylogo: false,
+        };
+
+        Plotly.newPlot(chartEl, traces, layout, config);
+      }
+
+      // Tab click handlers
+      document.querySelectorAll('.pareto-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          document.querySelectorAll('.pareto-tab').forEach(t => {
+            t.classList.remove('active');
+            t.setAttribute('aria-selected', 'false');
+          });
+          tab.classList.add('active');
+          tab.setAttribute('aria-selected', 'true');
+          currentModel = tab.dataset.model;
+          renderPlot(currentModel);
+        });
+      });
+
+      // Initial render
+      renderPlot(currentModel);
+    })();
+  </script>
+</body>
+</html>

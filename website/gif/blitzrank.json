@@ -1,0 +1,7345 @@
+{
+  "config": {
+    "n": 25,
+    "k": 3,
+    "m": 5,
+    "algorithm": "blitzrank"
+  },
+  "frames": [
+    {
+      "phase": "idle",
+      "roundLabel": "Initial State",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "pending"
+        }
+      },
+      "edges": [],
+      "directEdges": [],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": []
+    },
+    {
+      "phase": "select",
+      "roundLabel": "Rounds 1-5",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        }
+      },
+      "edges": [],
+      "directEdges": [],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        [
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      ]
+    },
+    {
+      "phase": "compare",
+      "roundLabel": "Rounds 1-5",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        }
+      },
+      "edges": [
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "directEdges": [
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "newEdges": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          25,
+          21
+        ]
+      ],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        [
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      ]
+    },
+    {
+      "phase": "closure",
+      "roundLabel": "Rounds 1-5",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 0,
+          "outDegree": 0,
+          "status": "querying"
+        }
+      },
+      "edges": [
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "directEdges": [
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          23,
+          25
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          23,
+          21
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          20,
+          18
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          22,
+          21
+        ],
+        [
+          17,
+          16
+        ],
+        [
+          22,
+          24
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          13,
+          12
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          24,
+          21
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "propagationPaths": [
+        {
+          "from": 17,
+          "via": 20,
+          "to": 19
+        },
+        {
+          "from": 17,
+          "via": 19,
+          "to": 16
+        },
+        {
+          "from": 20,
+          "via": 19,
+          "to": 16
+        },
+        {
+          "from": 10,
+          "via": 7,
+          "to": 6
+        },
+        {
+          "from": 10,
+          "via": 6,
+          "to": 8
+        },
+        {
+          "from": 7,
+          "via": 6,
+          "to": 8
+        },
+        {
+          "from": 13,
+          "via": 11,
+          "to": 12
+        },
+        {
+          "from": 17,
+          "via": 16,
+          "to": 18
+        },
+        {
+          "from": 20,
+          "via": 16,
+          "to": 18
+        },
+        {
+          "from": 19,
+          "via": 16,
+          "to": 18
+        },
+        {
+          "from": 13,
+          "via": 12,
+          "to": 15
+        },
+        {
+          "from": 11,
+          "via": 12,
+          "to": 15
+        },
+        {
+          "from": 13,
+          "via": 15,
+          "to": 14
+        },
+        {
+          "from": 11,
+          "via": 15,
+          "to": 14
+        },
+        {
+          "from": 12,
+          "via": 15,
+          "to": 14
+        },
+        {
+          "from": 22,
+          "via": 23,
+          "to": 24
+        },
+        {
+          "from": 2,
+          "via": 3,
+          "to": 5
+        },
+        {
+          "from": 22,
+          "via": 24,
+          "to": 25
+        },
+        {
+          "from": 23,
+          "via": 24,
+          "to": 25
+        },
+        {
+          "from": 2,
+          "via": 5,
+          "to": 1
+        },
+        {
+          "from": 3,
+          "via": 5,
+          "to": 1
+        },
+        {
+          "from": 22,
+          "via": 25,
+          "to": 21
+        },
+        {
+          "from": 23,
+          "via": 25,
+          "to": 21
+        },
+        {
+          "from": 24,
+          "via": 25,
+          "to": 21
+        },
+        {
+          "from": 10,
+          "via": 8,
+          "to": 9
+        },
+        {
+          "from": 7,
+          "via": 8,
+          "to": 9
+        },
+        {
+          "from": 6,
+          "via": 8,
+          "to": 9
+        },
+        {
+          "from": 2,
+          "via": 1,
+          "to": 4
+        },
+        {
+          "from": 3,
+          "via": 1,
+          "to": 4
+        },
+        {
+          "from": 5,
+          "via": 1,
+          "to": 4
+        }
+      ],
+      "queryGroups": []
+    },
+    {
+      "phase": "update_degrees",
+      "roundLabel": "Rounds 1-5",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "pending"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "pending"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "pending"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "pending"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "pending"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "pending"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "pending"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "pending"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "pending"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "pending"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "pending"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "pending"
+        }
+      },
+      "edges": [
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "directEdges": [
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": []
+    },
+    {
+      "phase": "eliminate",
+      "roundLabel": "Rounds 1-5",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "pending"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "pending"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "pending"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "pending"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "pending"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "directEdges": [
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": []
+    },
+    {
+      "phase": "select",
+      "roundLabel": "Round 6",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "directEdges": [
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": [
+        [
+          2,
+          10,
+          13,
+          17,
+          22
+        ]
+      ]
+    },
+    {
+      "phase": "compare",
+      "roundLabel": "Round 6",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [
+        [
+          17,
+          13
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          10,
+          22
+        ],
+        [
+          22,
+          2
+        ]
+      ],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": [
+        [
+          2,
+          10,
+          13,
+          17,
+          22
+        ]
+      ]
+    },
+    {
+      "phase": "closure",
+      "roundLabel": "Round 6",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 0,
+          "outDegree": 4,
+          "status": "querying"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [
+        [
+          22,
+          5
+        ],
+        [
+          17,
+          3
+        ],
+        [
+          17,
+          9
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          17,
+          21
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          17,
+          24
+        ],
+        [
+          13,
+          5
+        ],
+        [
+          13,
+          8
+        ],
+        [
+          10,
+          21
+        ],
+        [
+          10,
+          24
+        ],
+        [
+          13,
+          23
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          22,
+          4
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          17,
+          11
+        ],
+        [
+          17,
+          8
+        ],
+        [
+          17,
+          14
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          17,
+          23
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          13,
+          4
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          10,
+          23
+        ],
+        [
+          13,
+          22
+        ],
+        [
+          13,
+          25
+        ],
+        [
+          22,
+          3
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          17,
+          10
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          17,
+          22
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          13,
+          9
+        ],
+        [
+          17,
+          25
+        ],
+        [
+          13,
+          6
+        ],
+        [
+          10,
+          25
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          13,
+          24
+        ]
+      ],
+      "propagationPaths": [
+        {
+          "from": 17,
+          "via": 13,
+          "to": 10
+        },
+        {
+          "from": 17,
+          "via": 13,
+          "to": 11
+        },
+        {
+          "from": 17,
+          "via": 13,
+          "to": 12
+        },
+        {
+          "from": 17,
+          "via": 13,
+          "to": 15
+        },
+        {
+          "from": 17,
+          "via": 13,
+          "to": 14
+        },
+        {
+          "from": 17,
+          "via": 10,
+          "to": 7
+        },
+        {
+          "from": 17,
+          "via": 10,
+          "to": 6
+        },
+        {
+          "from": 17,
+          "via": 10,
+          "to": 22
+        },
+        {
+          "from": 17,
+          "via": 10,
+          "to": 8
+        },
+        {
+          "from": 17,
+          "via": 10,
+          "to": 9
+        },
+        {
+          "from": 13,
+          "via": 10,
+          "to": 7
+        },
+        {
+          "from": 13,
+          "via": 10,
+          "to": 6
+        },
+        {
+          "from": 13,
+          "via": 10,
+          "to": 22
+        },
+        {
+          "from": 13,
+          "via": 10,
+          "to": 8
+        },
+        {
+          "from": 13,
+          "via": 10,
+          "to": 9
+        },
+        {
+          "from": 17,
+          "via": 22,
+          "to": 2
+        },
+        {
+          "from": 17,
+          "via": 22,
+          "to": 23
+        },
+        {
+          "from": 17,
+          "via": 22,
+          "to": 24
+        },
+        {
+          "from": 17,
+          "via": 22,
+          "to": 25
+        },
+        {
+          "from": 17,
+          "via": 22,
+          "to": 21
+        },
+        {
+          "from": 13,
+          "via": 22,
+          "to": 2
+        },
+        {
+          "from": 13,
+          "via": 22,
+          "to": 23
+        },
+        {
+          "from": 13,
+          "via": 22,
+          "to": 24
+        },
+        {
+          "from": 13,
+          "via": 22,
+          "to": 25
+        },
+        {
+          "from": 13,
+          "via": 22,
+          "to": 21
+        },
+        {
+          "from": 10,
+          "via": 22,
+          "to": 2
+        },
+        {
+          "from": 10,
+          "via": 22,
+          "to": 23
+        },
+        {
+          "from": 10,
+          "via": 22,
+          "to": 24
+        },
+        {
+          "from": 10,
+          "via": 22,
+          "to": 25
+        },
+        {
+          "from": 10,
+          "via": 22,
+          "to": 21
+        },
+        {
+          "from": 17,
+          "via": 2,
+          "to": 3
+        },
+        {
+          "from": 17,
+          "via": 2,
+          "to": 5
+        },
+        {
+          "from": 17,
+          "via": 2,
+          "to": 1
+        },
+        {
+          "from": 17,
+          "via": 2,
+          "to": 4
+        },
+        {
+          "from": 13,
+          "via": 2,
+          "to": 3
+        },
+        {
+          "from": 13,
+          "via": 2,
+          "to": 5
+        },
+        {
+          "from": 13,
+          "via": 2,
+          "to": 1
+        },
+        {
+          "from": 13,
+          "via": 2,
+          "to": 4
+        },
+        {
+          "from": 10,
+          "via": 2,
+          "to": 3
+        },
+        {
+          "from": 10,
+          "via": 2,
+          "to": 5
+        },
+        {
+          "from": 10,
+          "via": 2,
+          "to": 1
+        },
+        {
+          "from": 10,
+          "via": 2,
+          "to": 4
+        },
+        {
+          "from": 22,
+          "via": 2,
+          "to": 3
+        },
+        {
+          "from": 22,
+          "via": 2,
+          "to": 5
+        },
+        {
+          "from": 22,
+          "via": 2,
+          "to": 1
+        },
+        {
+          "from": 22,
+          "via": 2,
+          "to": 4
+        }
+      ],
+      "queryGroups": []
+    },
+    {
+      "phase": "update_degrees",
+      "roundLabel": "Round 6",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 24,
+          "status": "pending"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 1,
+          "outDegree": 19,
+          "status": "pending"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 2,
+          "outDegree": 14,
+          "status": "pending"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 3,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 4,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 2,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 3,
+          "outDegree": 9,
+          "status": "pending"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 3,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 4,
+          "outDegree": 4,
+          "status": "pending"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 4,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 4,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 5,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 5,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 6,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 7,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": []
+    },
+    {
+      "phase": "eliminate",
+      "roundLabel": "Round 6",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 24,
+          "status": "pending"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 1,
+          "outDegree": 19,
+          "status": "pending"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 2,
+          "outDegree": 14,
+          "status": "pending"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 3,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 4,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 2,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 3,
+          "outDegree": 9,
+          "status": "finalized_out"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 3,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 4,
+          "outDegree": 4,
+          "status": "finalized_out"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 4,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 4,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 5,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 5,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 6,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 7,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": []
+    },
+    {
+      "phase": "finalize",
+      "roundLabel": "Round 6",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 24,
+          "status": "finalized_top"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 1,
+          "outDegree": 19,
+          "status": "pending"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 2,
+          "outDegree": 14,
+          "status": "pending"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "pending"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 3,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 4,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 2,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 3,
+          "outDegree": 9,
+          "status": "finalized_out"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 3,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 4,
+          "outDegree": 4,
+          "status": "finalized_out"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 4,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 4,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 5,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 5,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 6,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 7,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": []
+    },
+    {
+      "phase": "select",
+      "roundLabel": "Round 7",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 24,
+          "status": "finalized_top"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 1,
+          "outDegree": 19,
+          "status": "querying"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 2,
+          "outDegree": 14,
+          "status": "querying"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "querying"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "querying"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 3,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 4,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 2,
+          "outDegree": 3,
+          "status": "querying"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 3,
+          "outDegree": 9,
+          "status": "finalized_out"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 3,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 4,
+          "outDegree": 4,
+          "status": "finalized_out"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 4,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 4,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 5,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 5,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 6,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 7,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": [
+        [
+          20,
+          13,
+          19,
+          11,
+          10
+        ]
+      ]
+    },
+    {
+      "phase": "compare",
+      "roundLabel": "Round 7",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 24,
+          "status": "finalized_top"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 1,
+          "outDegree": 19,
+          "status": "querying"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 2,
+          "outDegree": 14,
+          "status": "querying"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "querying"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "querying"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 3,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 4,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 2,
+          "outDegree": 3,
+          "status": "querying"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 3,
+          "outDegree": 9,
+          "status": "finalized_out"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 3,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 4,
+          "outDegree": 4,
+          "status": "finalized_out"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 4,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 4,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 5,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 5,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 6,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 7,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [
+        [
+          13,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          19,
+          11
+        ]
+      ],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": [
+        [
+          20,
+          13,
+          19,
+          11,
+          10
+        ]
+      ]
+    },
+    {
+      "phase": "closure",
+      "roundLabel": "Round 7",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 24,
+          "status": "finalized_top"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 1,
+          "outDegree": 19,
+          "status": "querying"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 2,
+          "outDegree": 14,
+          "status": "querying"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 1,
+          "outDegree": 3,
+          "status": "querying"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 2,
+          "outDegree": 2,
+          "status": "querying"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 3,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 4,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 2,
+          "outDegree": 3,
+          "status": "querying"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 3,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 3,
+          "outDegree": 9,
+          "status": "finalized_out"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 3,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 4,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 4,
+          "outDegree": 4,
+          "status": "finalized_out"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 4,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 4,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 5,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 5,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 6,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 7,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [
+        [
+          10,
+          15
+        ],
+        [
+          20,
+          11
+        ],
+        [
+          19,
+          14
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          20,
+          14
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          13,
+          16
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          19,
+          12
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          20,
+          12
+        ],
+        [
+          19,
+          15
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          20,
+          15
+        ]
+      ],
+      "propagationPaths": [
+        {
+          "from": 13,
+          "via": 10,
+          "to": 20
+        },
+        {
+          "from": 13,
+          "via": 20,
+          "to": 19
+        },
+        {
+          "from": 13,
+          "via": 20,
+          "to": 16
+        },
+        {
+          "from": 13,
+          "via": 20,
+          "to": 18
+        },
+        {
+          "from": 10,
+          "via": 20,
+          "to": 19
+        },
+        {
+          "from": 10,
+          "via": 20,
+          "to": 16
+        },
+        {
+          "from": 10,
+          "via": 20,
+          "to": 18
+        },
+        {
+          "from": 10,
+          "via": 19,
+          "to": 11
+        },
+        {
+          "from": 20,
+          "via": 19,
+          "to": 11
+        },
+        {
+          "from": 10,
+          "via": 11,
+          "to": 12
+        },
+        {
+          "from": 10,
+          "via": 11,
+          "to": 15
+        },
+        {
+          "from": 10,
+          "via": 11,
+          "to": 14
+        },
+        {
+          "from": 20,
+          "via": 11,
+          "to": 12
+        },
+        {
+          "from": 20,
+          "via": 11,
+          "to": 15
+        },
+        {
+          "from": 20,
+          "via": 11,
+          "to": 14
+        },
+        {
+          "from": 19,
+          "via": 11,
+          "to": 12
+        },
+        {
+          "from": 19,
+          "via": 11,
+          "to": 15
+        },
+        {
+          "from": 19,
+          "via": 11,
+          "to": 14
+        }
+      ],
+      "queryGroups": []
+    },
+    {
+      "phase": "update_degrees",
+      "roundLabel": "Round 7",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 24,
+          "status": "finalized_top"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 1,
+          "outDegree": 23,
+          "status": "pending"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 2,
+          "outDegree": 22,
+          "status": "pending"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 3,
+          "outDegree": 7,
+          "status": "pending"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 4,
+          "outDegree": 6,
+          "status": "pending"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 3,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 4,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "pending"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 3,
+          "outDegree": 9,
+          "status": "finalized_out"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 4,
+          "outDegree": 4,
+          "status": "finalized_out"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 4,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 5,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 6,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 7,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": []
+    },
+    {
+      "phase": "eliminate",
+      "roundLabel": "Round 7",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 24,
+          "status": "finalized_top"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 1,
+          "outDegree": 23,
+          "status": "pending"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 2,
+          "outDegree": 22,
+          "status": "pending"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 3,
+          "outDegree": 7,
+          "status": "finalized_out"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 4,
+          "outDegree": 6,
+          "status": "finalized_out"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 3,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 4,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 3,
+          "outDegree": 9,
+          "status": "finalized_out"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 4,
+          "outDegree": 4,
+          "status": "finalized_out"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 4,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 5,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 6,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 7,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": []
+    },
+    {
+      "phase": "finalize",
+      "roundLabel": "Round 7",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 24,
+          "status": "finalized_top"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 1,
+          "outDegree": 23,
+          "status": "finalized_top"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 2,
+          "outDegree": 22,
+          "status": "finalized_top"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 3,
+          "outDegree": 7,
+          "status": "finalized_out"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 4,
+          "outDegree": 6,
+          "status": "finalized_out"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 3,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 4,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 3,
+          "outDegree": 9,
+          "status": "finalized_out"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 4,
+          "outDegree": 4,
+          "status": "finalized_out"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 4,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 5,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 6,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 7,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": []
+    },
+    {
+      "phase": "final",
+      "roundLabel": "Complete: 7 Rounds",
+      "nodes": {
+        "17": {
+          "id": 17,
+          "inDegree": 0,
+          "outDegree": 24,
+          "status": "finalized_top"
+        },
+        "13": {
+          "id": 13,
+          "inDegree": 1,
+          "outDegree": 23,
+          "status": "finalized_top"
+        },
+        "10": {
+          "id": 10,
+          "inDegree": 2,
+          "outDegree": 22,
+          "status": "finalized_top"
+        },
+        "20": {
+          "id": 20,
+          "inDegree": 3,
+          "outDegree": 7,
+          "status": "finalized_out"
+        },
+        "19": {
+          "id": 19,
+          "inDegree": 4,
+          "outDegree": 6,
+          "status": "finalized_out"
+        },
+        "7": {
+          "id": 7,
+          "inDegree": 3,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "6": {
+          "id": 6,
+          "inDegree": 4,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "11": {
+          "id": 11,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "16": {
+          "id": 16,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "22": {
+          "id": 22,
+          "inDegree": 3,
+          "outDegree": 9,
+          "status": "finalized_out"
+        },
+        "12": {
+          "id": 12,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "18": {
+          "id": 18,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "2": {
+          "id": 2,
+          "inDegree": 4,
+          "outDegree": 4,
+          "status": "finalized_out"
+        },
+        "15": {
+          "id": 15,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "23": {
+          "id": 23,
+          "inDegree": 4,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "14": {
+          "id": 14,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "3": {
+          "id": 3,
+          "inDegree": 5,
+          "outDegree": 3,
+          "status": "finalized_out"
+        },
+        "24": {
+          "id": 24,
+          "inDegree": 5,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "5": {
+          "id": 5,
+          "inDegree": 6,
+          "outDegree": 2,
+          "status": "finalized_out"
+        },
+        "25": {
+          "id": 25,
+          "inDegree": 6,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "8": {
+          "id": 8,
+          "inDegree": 5,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "9": {
+          "id": 9,
+          "inDegree": 6,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "1": {
+          "id": 1,
+          "inDegree": 7,
+          "outDegree": 1,
+          "status": "finalized_out"
+        },
+        "4": {
+          "id": 4,
+          "inDegree": 8,
+          "outDegree": 0,
+          "status": "finalized_out"
+        },
+        "21": {
+          "id": 21,
+          "inDegree": 7,
+          "outDegree": 0,
+          "status": "finalized_out"
+        }
+      },
+      "edges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "directEdges": [
+        [
+          22,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          22
+        ]
+      ],
+      "newEdges": [],
+      "inferredEdges": [],
+      "propagationPaths": [],
+      "queryGroups": []
+    }
+  ]
+}

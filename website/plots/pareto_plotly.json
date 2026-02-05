@@ -1,0 +1,1242 @@
+{
+  "models": {
+    "gpt-4.1": {
+      "displayName": "GPT-4.1",
+      "data": [
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            39.892991162493445,
+            41.951735890187834
+          ],
+          "y": [
+            56.211642857142856,
+            56.691071428571426
+          ],
+          "line": {
+            "color": "#0066cc",
+            "width": 2.5
+          },
+          "opacity": 0.6,
+          "legendgroup": "BlitzRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            39.892991162493445,
+            41.951735890187834
+          ],
+          "y": [
+            56.211642857142856,
+            56.691071428571426
+          ],
+          "customdata": [
+            "BlitzRank-k20",
+            "BlitzRank-k10"
+          ],
+          "marker": {
+            "symbol": "star",
+            "size": 13,
+            "color": "#0066cc",
+            "line": {
+              "color": "white",
+              "width": 1.5
+            }
+          },
+          "name": "BlitzRank",
+          "legendgroup": "BlitzRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            57.047204551772886,
+            113.96276039979905,
+            170.99157459213612
+          ],
+          "y": [
+            55.619214285714285,
+            56.246857142857145,
+            56.66814285714286
+          ],
+          "line": {
+            "color": "#b8860b",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "TourRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            57.047204551772886,
+            113.96276039979905,
+            170.99157459213612
+          ],
+          "y": [
+            55.619214285714285,
+            56.246857142857145,
+            56.66814285714286
+          ],
+          "customdata": [
+            "TourRank",
+            "TourRank-R2",
+            "TourRank-R3"
+          ],
+          "marker": {
+            "symbol": "square",
+            "size": 9,
+            "color": "#b8860b",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "TourRank",
+          "legendgroup": "TourRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            54.42211294323759,
+            109.31722271103693,
+            164.2926903801758
+          ],
+          "y": [
+            56.53035714285714,
+            56.71514285714286,
+            56.116928571428566
+          ],
+          "line": {
+            "color": "#2e8b7a",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "SlidingWindow",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            54.42211294323759,
+            109.31722271103693,
+            164.2926903801758
+          ],
+          "y": [
+            56.53035714285714,
+            56.71514285714286,
+            56.116928571428566
+          ],
+          "customdata": [
+            "SlidingWindow",
+            "SlidingWindow-R2",
+            "SlidingWindow-R3"
+          ],
+          "marker": {
+            "symbol": "triangle-up",
+            "size": 10,
+            "color": "#2e8b7a",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "SlidingWindow",
+          "legendgroup": "SlidingWindow",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            50.22080977245877,
+            66.56049276011562,
+            116.01325864086803,
+            174.90722459403128
+          ],
+          "y": [
+            55.56764285714286,
+            56.17914285714286,
+            56.47335714285714,
+            56.72864285714286
+          ],
+          "line": {
+            "color": "#cd7f8e",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "AcuRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            50.22080977245877,
+            66.56049276011562,
+            116.01325864086803,
+            174.90722459403128
+          ],
+          "y": [
+            55.56764285714286,
+            56.17914285714286,
+            56.47335714285714,
+            56.72864285714286
+          ],
+          "customdata": [
+            "AcuRank-9",
+            "AcuRank",
+            "AcuRank-H",
+            "AcuRank-HH"
+          ],
+          "marker": {
+            "symbol": "diamond",
+            "size": 9,
+            "color": "#cd7f8e",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "AcuRank",
+          "legendgroup": "AcuRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            314.5792217668607
+          ],
+          "y": [
+            56.93035714285714
+          ],
+          "customdata": [
+            "Pairwise"
+          ],
+          "marker": {
+            "symbol": "circle",
+            "size": 9,
+            "color": "#9370db",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "Pairwise",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            111.10361350470785
+          ],
+          "y": [
+            56.25528571428571
+          ],
+          "customdata": [
+            "Setwise"
+          ],
+          "marker": {
+            "symbol": "pentagon",
+            "size": 10,
+            "color": "#6a9fb5",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "Setwise",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        }
+      ]
+    },
+    "gemini-3-flash": {
+      "displayName": "Gemini-3-Flash",
+      "data": [
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            39.91421195681185,
+            41.75973961721008
+          ],
+          "y": [
+            56.622571428571426,
+            56.959357142857144
+          ],
+          "line": {
+            "color": "#0066cc",
+            "width": 2.5
+          },
+          "opacity": 0.6,
+          "legendgroup": "BlitzRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            39.91421195681185,
+            41.75973961721008
+          ],
+          "y": [
+            56.622571428571426,
+            56.959357142857144
+          ],
+          "customdata": [
+            "BlitzRank-k20",
+            "BlitzRank-k10"
+          ],
+          "marker": {
+            "symbol": "star",
+            "size": 13,
+            "color": "#0066cc",
+            "line": {
+              "color": "white",
+              "width": 1.5
+            }
+          },
+          "name": "BlitzRank",
+          "legendgroup": "BlitzRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            56.74781123794907,
+            113.4570100699065,
+            170.27321350568067
+          ],
+          "y": [
+            56.32164285714286,
+            56.49042857142857,
+            56.74342857142857
+          ],
+          "line": {
+            "color": "#b8860b",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "TourRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            56.74781123794907,
+            113.4570100699065,
+            170.27321350568067
+          ],
+          "y": [
+            56.32164285714286,
+            56.49042857142857,
+            56.74342857142857
+          ],
+          "customdata": [
+            "TourRank",
+            "TourRank-R2",
+            "TourRank-R3"
+          ],
+          "marker": {
+            "symbol": "square",
+            "size": 9,
+            "color": "#b8860b",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "TourRank",
+          "legendgroup": "TourRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            54.363288564123614,
+            108.97532816974392,
+            163.60319247258494
+          ],
+          "y": [
+            56.90292857142857,
+            56.30564285714286,
+            56.16464285714285
+          ],
+          "line": {
+            "color": "#2e8b7a",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "SlidingWindow",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            54.363288564123614,
+            108.97532816974392,
+            163.60319247258494
+          ],
+          "y": [
+            56.90292857142857,
+            56.30564285714286,
+            56.16464285714285
+          ],
+          "customdata": [
+            "SlidingWindow",
+            "SlidingWindow-R2",
+            "SlidingWindow-R3"
+          ],
+          "marker": {
+            "symbol": "triangle-up",
+            "size": 10,
+            "color": "#2e8b7a",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "SlidingWindow",
+          "legendgroup": "SlidingWindow",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            50.13212142725231,
+            71.49745948537482,
+            137.54632754192386,
+            186.09476194361827
+          ],
+          "y": [
+            55.81442857142857,
+            56.405142857142856,
+            56.84292857142857,
+            56.962071428571434
+          ],
+          "line": {
+            "color": "#cd7f8e",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "AcuRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            50.13212142725231,
+            71.49745948537482,
+            137.54632754192386,
+            186.09476194361827
+          ],
+          "y": [
+            55.81442857142857,
+            56.405142857142856,
+            56.84292857142857,
+            56.962071428571434
+          ],
+          "customdata": [
+            "AcuRank-9",
+            "AcuRank",
+            "AcuRank-H",
+            "AcuRank-HH"
+          ],
+          "marker": {
+            "symbol": "diamond",
+            "size": 9,
+            "color": "#cd7f8e",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "AcuRank",
+          "legendgroup": "AcuRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            334.3529079658838
+          ],
+          "y": [
+            57.06807142857143
+          ],
+          "customdata": [
+            "Pairwise"
+          ],
+          "marker": {
+            "symbol": "circle",
+            "size": 9,
+            "color": "#9370db",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "Pairwise",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            119.24088712369569
+          ],
+          "y": [
+            56.866571428571426
+          ],
+          "customdata": [
+            "Setwise"
+          ],
+          "marker": {
+            "symbol": "pentagon",
+            "size": 10,
+            "color": "#6a9fb5",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "Setwise",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        }
+      ]
+    },
+    "glm": {
+      "displayName": "GLM-4.7",
+      "data": [
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            39.69670176017014,
+            41.43994926599871
+          ],
+          "y": [
+            56.29714285714285,
+            56.71592857142857
+          ],
+          "line": {
+            "color": "#0066cc",
+            "width": 2.5
+          },
+          "opacity": 0.6,
+          "legendgroup": "BlitzRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            39.69670176017014,
+            41.43994926599871
+          ],
+          "y": [
+            56.29714285714285,
+            56.71592857142857
+          ],
+          "customdata": [
+            "BlitzRank-k20",
+            "BlitzRank-k10"
+          ],
+          "marker": {
+            "symbol": "star",
+            "size": 13,
+            "color": "#0066cc",
+            "line": {
+              "color": "white",
+              "width": 1.5
+            }
+          },
+          "name": "BlitzRank",
+          "legendgroup": "BlitzRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            56.58407429443488,
+            113.2109424516311,
+            169.7914840254417
+          ],
+          "y": [
+            55.569928571428576,
+            56.10407142857143,
+            56.56892857142857
+          ],
+          "line": {
+            "color": "#b8860b",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "TourRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            56.58407429443488,
+            113.2109424516311,
+            169.7914840254417
+          ],
+          "y": [
+            55.569928571428576,
+            56.10407142857143,
+            56.56892857142857
+          ],
+          "customdata": [
+            "TourRank",
+            "TourRank-R2",
+            "TourRank-R3"
+          ],
+          "marker": {
+            "symbol": "square",
+            "size": 9,
+            "color": "#b8860b",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "TourRank",
+          "legendgroup": "TourRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            54.06392117976007,
+            108.56541216015314,
+            163.16542956177025
+          ],
+          "y": [
+            56.72792857142857,
+            56.61935714285714,
+            56.51342857142857
+          ],
+          "line": {
+            "color": "#2e8b7a",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "SlidingWindow",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            54.06392117976007,
+            108.56541216015314,
+            163.16542956177025
+          ],
+          "y": [
+            56.72792857142857,
+            56.61935714285714,
+            56.51342857142857
+          ],
+          "customdata": [
+            "SlidingWindow",
+            "SlidingWindow-R2",
+            "SlidingWindow-R3"
+          ],
+          "marker": {
+            "symbol": "triangle-up",
+            "size": 10,
+            "color": "#2e8b7a",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "SlidingWindow",
+          "legendgroup": "SlidingWindow",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            49.708044195686924,
+            64.29493305907512,
+            107.67959047799134,
+            142.05351593824963
+          ],
+          "y": [
+            55.07292857142858,
+            55.90335714285714,
+            56.44978571428572,
+            56.385642857142855
+          ],
+          "line": {
+            "color": "#cd7f8e",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "AcuRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            49.708044195686924,
+            64.29493305907512,
+            107.67959047799134,
+            142.05351593824963
+          ],
+          "y": [
+            55.07292857142858,
+            55.90335714285714,
+            56.44978571428572,
+            56.385642857142855
+          ],
+          "customdata": [
+            "AcuRank-9",
+            "AcuRank",
+            "AcuRank-H",
+            "AcuRank-HH"
+          ],
+          "marker": {
+            "symbol": "diamond",
+            "size": 9,
+            "color": "#cd7f8e",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "AcuRank",
+          "legendgroup": "AcuRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        }
+      ]
+    },
+    "qwen": {
+      "displayName": "Qwen3-235B-A22B-Instruct",
+      "data": [
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            40.78459319980361,
+            42.939835882240246
+          ],
+          "y": [
+            54.71964285714286,
+            55.56035714285714
+          ],
+          "line": {
+            "color": "#0066cc",
+            "width": 2.5
+          },
+          "opacity": 0.6,
+          "legendgroup": "BlitzRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            40.78459319980361,
+            42.939835882240246
+          ],
+          "y": [
+            54.71964285714286,
+            55.56035714285714
+          ],
+          "customdata": [
+            "BlitzRank-k20",
+            "BlitzRank-k10"
+          ],
+          "marker": {
+            "symbol": "star",
+            "size": 13,
+            "color": "#0066cc",
+            "line": {
+              "color": "white",
+              "width": 1.5
+            }
+          },
+          "name": "BlitzRank",
+          "legendgroup": "BlitzRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            59.460623615032304,
+            118.81309478377398,
+            178.31207132952545
+          ],
+          "y": [
+            54.24321428571428,
+            55.05007142857143,
+            55.674928571428566
+          ],
+          "line": {
+            "color": "#b8860b",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "TourRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            59.460623615032304,
+            118.81309478377398,
+            178.31207132952545
+          ],
+          "y": [
+            54.24321428571428,
+            55.05007142857143,
+            55.674928571428566
+          ],
+          "customdata": [
+            "TourRank",
+            "TourRank-R2",
+            "TourRank-R3"
+          ],
+          "marker": {
+            "symbol": "square",
+            "size": 9,
+            "color": "#b8860b",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "TourRank",
+          "legendgroup": "TourRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            56.782037157012304,
+            113.8476765112324,
+            170.9081441461495
+          ],
+          "y": [
+            55.46857142857143,
+            55.36671428571429,
+            55.480000000000004
+          ],
+          "line": {
+            "color": "#2e8b7a",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "SlidingWindow",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            56.782037157012304,
+            113.8476765112324,
+            170.9081441461495
+          ],
+          "y": [
+            55.46857142857143,
+            55.36671428571429,
+            55.480000000000004
+          ],
+          "customdata": [
+            "SlidingWindow",
+            "SlidingWindow-R2",
+            "SlidingWindow-R3"
+          ],
+          "marker": {
+            "symbol": "triangle-up",
+            "size": 10,
+            "color": "#2e8b7a",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "SlidingWindow",
+          "legendgroup": "SlidingWindow",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            52.35432046362739,
+            71.16887011419185,
+            128.23417786527736,
+            187.83476907981927
+          ],
+          "y": [
+            53.983000000000004,
+            54.838,
+            55.415214285714285,
+            55.69857142857143
+          ],
+          "line": {
+            "color": "#cd7f8e",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "AcuRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            52.35432046362739,
+            71.16887011419185,
+            128.23417786527736,
+            187.83476907981927
+          ],
+          "y": [
+            53.983000000000004,
+            54.838,
+            55.415214285714285,
+            55.69857142857143
+          ],
+          "customdata": [
+            "AcuRank-9",
+            "AcuRank",
+            "AcuRank-H",
+            "AcuRank-HH"
+          ],
+          "marker": {
+            "symbol": "diamond",
+            "size": 9,
+            "color": "#cd7f8e",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "AcuRank",
+          "legendgroup": "AcuRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        }
+      ]
+    },
+    "deepseek": {
+      "displayName": "DeepSeek-V3.2",
+      "data": [
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            39.045344738968765,
+            41.038952765109244
+          ],
+          "y": [
+            56.214642857142856,
+            56.624928571428576
+          ],
+          "line": {
+            "color": "#0066cc",
+            "width": 2.5
+          },
+          "opacity": 0.6,
+          "legendgroup": "BlitzRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            39.045344738968765,
+            41.038952765109244
+          ],
+          "y": [
+            56.214642857142856,
+            56.624928571428576
+          ],
+          "customdata": [
+            "BlitzRank-k20",
+            "BlitzRank-k10"
+          ],
+          "marker": {
+            "symbol": "star",
+            "size": 13,
+            "color": "#0066cc",
+            "line": {
+              "color": "white",
+              "width": 1.5
+            }
+          },
+          "name": "BlitzRank",
+          "legendgroup": "BlitzRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            56.21669719315974,
+            112.3238416433617,
+            168.51404738461156
+          ],
+          "y": [
+            55.54821428571428,
+            56.39042857142857,
+            56.48492857142857
+          ],
+          "line": {
+            "color": "#b8860b",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "TourRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            56.21669719315974,
+            112.3238416433617,
+            168.51404738461156
+          ],
+          "y": [
+            55.54821428571428,
+            56.39042857142857,
+            56.48492857142857
+          ],
+          "customdata": [
+            "TourRank",
+            "TourRank-R2",
+            "TourRank-R3"
+          ],
+          "marker": {
+            "symbol": "square",
+            "size": 9,
+            "color": "#b8860b",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "TourRank",
+          "legendgroup": "TourRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            53.62574204986529,
+            107.68522291840668
+          ],
+          "y": [
+            57.28442857142857,
+            56.87342857142857
+          ],
+          "line": {
+            "color": "#2e8b7a",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "SlidingWindow",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            53.62574204986529,
+            107.68522291840668
+          ],
+          "y": [
+            57.28442857142857,
+            56.87342857142857
+          ],
+          "customdata": [
+            "SlidingWindow",
+            "SlidingWindow-R2"
+          ],
+          "marker": {
+            "symbol": "triangle-up",
+            "size": 10,
+            "color": "#2e8b7a",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "SlidingWindow",
+          "legendgroup": "SlidingWindow",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        },
+        {
+          "type": "scatter",
+          "mode": "lines",
+          "x": [
+            69.09645641283933,
+            130.7825694651728
+          ],
+          "y": [
+            56.007214285714284,
+            56.76492857142858
+          ],
+          "line": {
+            "color": "#cd7f8e",
+            "width": 1.5
+          },
+          "opacity": 0.4,
+          "legendgroup": "AcuRank",
+          "showlegend": false,
+          "hoverinfo": "skip"
+        },
+        {
+          "type": "scatter",
+          "mode": "markers",
+          "x": [
+            69.09645641283933,
+            130.7825694651728
+          ],
+          "y": [
+            56.007214285714284,
+            56.76492857142858
+          ],
+          "customdata": [
+            "AcuRank",
+            "AcuRank-H"
+          ],
+          "marker": {
+            "symbol": "diamond",
+            "size": 9,
+            "color": "#cd7f8e",
+            "line": {
+              "color": "white",
+              "width": 1
+            }
+          },
+          "name": "AcuRank",
+          "legendgroup": "AcuRank",
+          "hovertemplate": "<b>%{customdata}</b><br>nDCG@10: %{y:.1f}<br>Tokens/Query: %{x:.1f}k<extra></extra>",
+          "showlegend": true
+        }
+      ]
+    }
+  },
+  "layout": {
+    "xaxis": {
+      "title": {
+        "text": "Avg. Tokens/Query (k)",
+        "font": {
+          "size": 13
+        }
+      },
+      "type": "log",
+      "gridcolor": "#e0e0e0",
+      "gridwidth": 1,
+      "zeroline": false,
+      "showline": true,
+      "linecolor": "#333",
+      "linewidth": 1
+    },
+    "yaxis": {
+      "title": {
+        "text": "Avg. nDCG@10",
+        "font": {
+          "size": 13
+        }
+      },
+      "gridcolor": "#e0e0e0",
+      "gridwidth": 1,
+      "zeroline": false,
+      "showline": true,
+      "linecolor": "#333",
+      "linewidth": 1
+    },
+    "plot_bgcolor": "#fafafa",
+    "paper_bgcolor": "white",
+    "margin": {
+      "l": 60,
+      "r": 30,
+      "t": 30,
+      "b": 50
+    },
+    "legend": {
+      "orientation": "h",
+      "yanchor": "bottom",
+      "y": 1.02,
+      "xanchor": "center",
+      "x": 0.5,
+      "bgcolor": "rgba(255,255,255,0.8)"
+    },
+    "hovermode": "closest"
+  }
+}
